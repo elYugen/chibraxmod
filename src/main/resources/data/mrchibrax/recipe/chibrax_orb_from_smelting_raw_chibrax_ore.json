@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "chibrax_items",
+  "ingredient": {
+    "item": "mrchibrax:raw_chibrax_ore"
+  },
+  "result": {
+    "id": "mrchibrax:chibrax_orb"
+  }
+}

@@ -1,5 +1,7 @@
 package fr.lleroy.mrchibrax;
 
+import fr.lleroy.mrchibrax.item.ModItemGroups;
+import fr.lleroy.mrchibrax.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,7 @@ public class MrChibrax implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
