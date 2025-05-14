@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mrchibrax",
+	"version": "${version}",
+	"name": "MrChibrax",
+	"description": "L'incarnation de MrChibrax",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://lleroy.fr",
+		"sources": "https://github.com/elyugen/chibraxmod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mrchibrax/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.lleroy.mrchibrax.MrChibrax"
+		],
+		"fabric-datagen": [
+			"fr.lleroy.mrchibrax.MrChibraxDataGenerator"
+		],
+		"client" : [
+			"fr.lleroy.mrchibrax.MrChibraxClient"
+		]
+	},
+	"mixins": [
+		"mrchibrax.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
